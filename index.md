@@ -18,3 +18,9 @@
 # Photography
    * [Locations](photo/locations.md)
 * [github key process](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+
+# Faire
+* [key metric: mistag rates](faire/mistag_rates.md)
+* [project 2023-04-03 cold start](faire/projects/20230403_cold_start.md)
+* 
