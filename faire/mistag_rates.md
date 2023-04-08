@@ -1,4 +1,4 @@
-Mistag rates
+# Mistag rates
 
 * currently at 24%, want to get to 15% by EOY
 * particularly egregious loses trust (quantify this). Egregious means things like seeing Jewelry when searching for Pets

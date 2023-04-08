@@ -1,3 +1,14 @@
+# Faire
+* [key metric: mistag rates](faire/mistag_rates.md)
+* [getting into max's fake store](faire/fake_store.md)
+* [project 2023-04-03 cold start](faire/projects/20230403_cold_start.md)
+
+
+# Data Science
+   * [SHAP](shap.md)
+   * [NDCG -normalized discounted cumlative gain](ndcg.md), metric for ranking problems.
+   * [CUPED](cuped.md)
+   * 
 # A/B testing reviews
    * [[Your AB tests are lying to you]]
    * Jonathan Landy talk on [[priors and AB tests]]
@@ -19,8 +30,5 @@
    * [Locations](photo/locations.md)
 * [github key process](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-
-# Faire
-* [key metric: mistag rates](faire/mistag_rates.md)
-* [project 2023-04-03 cold start](faire/projects/20230403_cold_start.md)
-* 
+# Personal
+* StitchFix 2023 401k contribution: 8491.53 (from myadp.com)
