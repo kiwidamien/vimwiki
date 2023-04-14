@@ -96,10 +96,6 @@ Ask about the NDCG metric on the experiment page
 Ask about imputed features for retailers
 Ask about CatNav in general
 
-
-
-## Task 2
-
 This [blog post](https://craft.faire.com/real-time-ranking-at-faire-part-2-the-feature-store-3f1013d3fe5d) on the feature store is really nice. 
 However, this paragraph puzzled me:
 
@@ -107,6 +103,47 @@ However, this paragraph puzzled me:
 
 It make sense to me when we are trying to retrain the weights of a model on the same set of features, because we would already have the appropriate real-time features at the time of inference. It is less clear to me how this approach works when introducing new real-time features. My guess is that we would either need to backfill, we could reliably access the pieces needed for the computation, or have a data collection period prior to the experiment.  Check this assumption.
 
+### Feature store information
+https://www.notion.so/faire/Features-101-21a2c34cae944c5b9f48c67256e384b6?pvs=4
+
+above is a document about the mechanics of adding a new feature to the feature store.
+- `machine_learning` schema contains the offline features
+- `kinesis` schema contains the online features
+
+There was a nice example query in the document. The problem was that we want to determine the credit limit we want to give a new reatiler upon signup. Because it is a new retailer, we can only look at features from the online store. This query gives the results
+```sql
+select
+  parent_token,
+  feature_name,
+  feature_value
+from
+  kinesis.rule_results
+where
+  review_queue = 'RETAILER_SIGN_UP_REVIEW_QUEUE' and
+  run_id = 'online'
+```
+
+### Current goal
+
+- Add a single family of features:
+  - fraction of brand ordered in country on in last N days, N in 7,30,60,90.
+  - question: using these because of uniformity, although  would prefer to pick multiples of 7. Is there freedom here?
+  - Need to create features in feature store and backfill
+  - Add to the catnav v15 script that I get from Wei
+- Can look for brand features from the offline feature store with this query:
+```sql
+select *
+from feature_store.feature_registry
+where ds = dateadd(day, -1, current_date()) and available_online=TRUE and feature_name LIKE 'brand_%' 
+```
+- can look at `count_ordering_retailers_trailing_7days` as an example of how to get order information (will need to group by country as well). From the table above, information can be found in `sql/brand_features/brand_num_ordering_retailers.sql`
+- call the above path `S`. We are looking in `datascience/airflow/dags/feature_store/features/` + `S`
+
+Breaking down a little big more
+- https://github.com/Faire/datascience/blob/master/airflow/dags/feature_store/features/sql/brand_features/brand_geo_features.sql contains code for getting brand order addresses, and getting the country from those.
+- need to make a decision about what to do if there are no brands in the country of the retailer (is this even a thing?)
+
+## Tactical informationkk a
 
 ## Task 3
 

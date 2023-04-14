@@ -30,5 +30,10 @@
    * [Locations](photo/locations.md)
 * [github key process](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-# Personal
+# Persona
+* [401k for 2023](finance/401k_2023) 
+* l
 * StitchFix 2023 401k contribution: 8491.53 (from myadp.com)
+* We have 793 per pay check at Faire going into 401k, Apr -- Dec is 2 x 9 months = 18 paychecks
+   *  14274 + 8491 = 22765, so over by roughly 265. Need to check if the deduction goes through on the April 15 paycheck (if not, I'll be under contributing)
+   * Double check that I have jjcorrect
