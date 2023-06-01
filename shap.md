@@ -25,6 +25,10 @@ A much more detailed formation can be found in the online book "Interpretable Ma
 - KernelSHAP is slow
 - TreeSHAP produces unintuitive feature attributions
 
+## Technical paper describing limitations of the SHAPLEY value
+https://arxiv.org/pdf/2002.11097.pdf
+
+
 ## Summary of the technical details from the towardsdatascience
 
 Take a model for predicting salaries with three features: age, gender, job

@@ -2,13 +2,34 @@
 * [key metric: mistag rates](faire/mistag_rates.md)
 * [getting into max's fake store](faire/fake_store.md)
 * [project 2023-04-03 cold start](faire/projects/20230403_cold_start.md)
+* [project 2023-04-17 brands you may like](faire/projects/20230417_bymk_retraining.md)
+* [project 2023-05-01 Testing a "For You" page](faire/projects/for_you_20230501.md)
 
 
 # Data Science
    * [SHAP](shap.md)
-   * [NDCG -normalized discounted cumlative gain](ndcg.md), metric for ranking problems.
+   * [NDCG -normalized discounted cumlative gain](ndcg.md), metric for [ranking](ranking) problems.
    * [CUPED](cuped.md)
+   * [experimental measurements of percentiles](percentile_exp.md) 
+   * [Deep Factorization machine paper](https://arxiv.org/pdf/1703.04247.pdf)
+   * External paper: [Top-K Lists](https://cran.r-project.org/web/packages/TopKLists/vignettes/TopKLists.pdf)
+
+
+# Platform
+   * Amazon Sagemaker xgboost
+
+# Git
+   * [checkout a file from one branch to another](git/move_files_between_branches.md)
+   * [get a list of all files that have changed from master](git/change_from_master.md)
+   * [rename a branch](git/rename_branch.md)
    * 
+In a different vein, some resources for high cardinality time-series. Specifically looking at making time series predictions for multiple skus.
+[Here](https://stats.stackexchange.com/questions/389291/strategies-for-time-series-forecasting-for-2000-different-products) is the stack overflow answer. Recommendations were:
+- Try a hierarical approach
+- Try a neural net (i.e. throw everything, see what sticks approach)
+- Try something called [optimal reconsiliation](https://otexts.com/fpp2/reconciliation.html) (external notes)
+[My notes on optimal reconsiliation](timeseries/optimal_reconsiliation.md)
+
 # A/B testing reviews
    * [[Your AB tests are lying to you]]
    * Jonathan Landy talk on [[priors and AB tests]]
@@ -18,6 +39,9 @@
    * use `:PackerInstall` to install neovim plugins
    * [vimwiki cheatsheet](http://thedarnedestthing.com/vimwiki%20cheatsheet)
    * [getting started with vimwiki](https://blog.mague.com/?p=602)
+# Shell in general
+   * [aliases](aliases.md)
+   * 
 # general maching learning system design
    * [Review: Designing Machine Learning systems](review/systems/designing_ml_systems.md)
 # Search
