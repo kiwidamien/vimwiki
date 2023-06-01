@@ -52,6 +52,9 @@ In a different vein, some resources for high cardinality time-series. Specifical
    * [atreus - typing less painfully](https://fpsvogel.com/posts/2021/keyboardio-atreus)
 # Photography
    * [Locations](photo/locations.md)
+   * Tour possibilities
+      * [Marine Wildlife of Alaska](https://trips.backcountryjourneys.com/Marine-Wildlife-of-Alaska/reservations/dates/booking-20240526-20240531) 2024-05-26 to 2024-05-31, backcountry journeys
+      * 
 * [github key process](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 # Docker notes
