@@ -65,3 +65,8 @@ In a different vein, some resources for high cardinality time-series. Specifical
    * [notes](review/programming/refactor_to_patterns.md)
 # Personal
 * [401k for 2023](finance/401k_2023) 
+  
+  
+# Video notes
+
+- [ How to Take Great Engineers and make them great technical leaders](review/great_eng_review.md)
