@@ -41,6 +41,7 @@ In a different vein, some resources for high cardinality time-series. Specifical
    * [getting started with vimwiki](https://blog.mague.com/?p=602)
 # Shell in general
    * [aliases](aliases.md)
+   * [brew and postgres](brew_and_postgres.md)
    * 
 # general maching learning system design
    * [Review: Designing Machine Learning systems](review/systems/designing_ml_systems.md)
