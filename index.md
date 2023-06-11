@@ -13,8 +13,16 @@
    * [experimental measurements of percentiles](percentile_exp.md) 
    * [Deep Factorization machine paper](https://arxiv.org/pdf/1703.04247.pdf)
    * External paper: [Top-K Lists](https://cran.r-project.org/web/packages/TopKLists/vignettes/TopKLists.pdf)
-
-
+   * [Statistical rethinking in Python (using numpyro)](https://fehiepsi.github.io/rethinking-numpyro/)
+      * [An astronomers introduction to Numpyro](https://dfm.io/posts/intro-to-numpyro/)
+   
+# Marketing data science
+   * [Overview of different approaches to market saturation](marketing/overview.md)
+      * Link to external aggegration of approaches [Marketing DS at Airbnb, Lyft, Doordash case studies](https://blogboard.io/x/data-science-in-marketing-optimization/)
+         * [Doordash](https://doordash.engineering/2020/07/31/optimizing-marketing-spend-with-ml/)
+         * [Airbnb](https://medium.com/airbnb-engineering/growing-our-host-community-with-online-marketing-9b2302299324)
+         * [Lyft](https://eng.lyft.com/lyft-marketing-automation-b43b7b7537cc)  
+         * [LTV estimation pitfalls and how to avoid them](https://www.appsflyer.com/blog/measurement-analytics/overcoming-ltv-modeling-pitfalls/)
 # Platform
    * Amazon Sagemaker xgboost
 
