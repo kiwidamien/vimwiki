@@ -39,6 +39,10 @@ In a different vein, some resources for high cardinality time-series. Specifical
 - Try something called [optimal reconsiliation](https://otexts.com/fpp2/reconciliation.html) (external notes)
 [My notes on optimal reconsiliation](timeseries/optimal_reconsiliation.md)
 
+# Jupyter commands
+   * [Listing and stopping servers](jupyter/list_and_stop.md)
+   * [Finding and setting kernels](jupyter/kernels.md)
+
 # A/B testing reviews
    * [[Your AB tests are lying to you]]
    * Jonathan Landy talk on [[priors and AB tests]]
