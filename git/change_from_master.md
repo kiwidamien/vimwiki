@@ -38,3 +38,10 @@ What it is actually doing: compares HEAD to the point where the current branch d
 ```shell
 git diff --stat <commit1> <commit2>
 ```
+
+## I want a list of files that have changed since master
+
+```shell
+git diff --name-only <mainDev>
+```
+where `<mainDev>` is typically one of "master" or "main"

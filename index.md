@@ -29,8 +29,9 @@
 # Git
    * [checkout a file from one branch to another](git/move_files_between_branches.md)
    * [get a list of all files that have changed from master](git/change_from_master.md)
+      * [just list filenames](git/just_filename_changes.md)
    * [rename a branch](git/rename_branch.md)
-   * 
+   * [Recommended git aliases](git/recommended_aliases.md) 
 In a different vein, some resources for high cardinality time-series. Specifically looking at making time series predictions for multiple skus.
 [Here](https://stats.stackexchange.com/questions/389291/strategies-for-time-series-forecasting-for-2000-different-products) is the stack overflow answer. Recommendations were:
 - Try a hierarical approach
@@ -63,7 +64,8 @@ In a different vein, some resources for high cardinality time-series. Specifical
    * [Locations](photo/locations.md)
    * Tour possibilities
       * [Marine Wildlife of Alaska](https://trips.backcountryjourneys.com/Marine-Wildlife-of-Alaska/reservations/dates/booking-20240526-20240531) 2024-05-26 to 2024-05-31, backcountry journeys
-      * 
+      * [Mark Denny](https://markdenneyphotography.com/workshops) particularly the Dolomites in Autumn (Oct 23-29,2023)
+
 * [github key process](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 # Docker notes
