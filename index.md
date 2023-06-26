@@ -43,6 +43,10 @@ In a different vein, some resources for high cardinality time-series. Specifical
    * [Listing and stopping servers](jupyter/list_and_stop.md)
    * [Finding and setting kernels](jupyter/kernels.md)
 
+# Python notes (turn into blog posts?)
+   * [Python logging at long last](python/understanding_logging.md)
+   * [pyenv](python/pyenv.md)
+   * 
 # A/B testing reviews
    * [[Your AB tests are lying to you]]
    * Jonathan Landy talk on [[priors and AB tests]]
@@ -56,7 +60,7 @@ In a different vein, some resources for high cardinality time-series. Specifical
    * [aliases](aliases.md)
    * [brew and postgres](brew_and_postgres.md)
    * 
-# general maching learning system design
+# general maching learning system [design](design)
    * [Review: Designing Machine Learning systems](review/systems/designing_ml_systems.md)
 # Search
    * [Manning MEAP:AI powered search](review/search/ai_powered_search.md)
