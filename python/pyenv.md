@@ -19,6 +19,13 @@ $ pyenv virtualenv 3.XX.YY name-of-env
 $ pyenv activate name-of-env
 ```
 
+## Deleting environments
+
+If deleting an environment, it is
+```bash
+$ pyenv virtualenv-delete name-of-env
+```
+
 ## Listing environment
 
 ```bash

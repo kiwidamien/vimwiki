@@ -46,7 +46,8 @@ In a different vein, some resources for high cardinality time-series. Specifical
 # Python notes (turn into blog posts?)
    * [Python logging at long last](python/understanding_logging.md)
    * [pyenv](python/pyenv.md)
-   * 
+   * [tox](python/tox.md)
+   * k
 # A/B testing reviews
    * [[Your AB tests are lying to you]]
    * Jonathan Landy talk on [[priors and AB tests]]
