@@ -15,7 +15,7 @@
    * External paper: [Top-K Lists](https://cran.r-project.org/web/packages/TopKLists/vignettes/TopKLists.pdf)
    * [Statistical rethinking in Python (using numpyro)](https://fehiepsi.github.io/rethinking-numpyro/)
       * [An astronomers introduction to Numpyro](https://dfm.io/posts/intro-to-numpyro/)
-   
+   * [Cold start problem in Ranking notes](ranking/cold_start_talk_delivery_hero.md) and original [video](https://www.youtube.com/watch?v=-SaJ3DxvozU) 
 # Marketing data science
    * [Overview of different approaches to market saturation](marketing/overview.md)
       * Link to external aggegration of approaches [Marketing DS at Airbnb, Lyft, Doordash case studies](https://blogboard.io/x/data-science-in-marketing-optimization/)
