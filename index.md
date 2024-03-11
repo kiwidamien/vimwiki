@@ -1,3 +1,17 @@
+[#](#) StitchFix - pricing
+* [raven steps](sfix/pricing/raven.md)
+
+# StitchFix: random talks
+* [margin negative clients -- Wolfe](https://drive.google.com/drive/folders/1SNS_sWrbEdvOZCVPQ26JjtAegy43xaEL)
+
+# Chinese songs
+* [法海你不懂爱](chinese/fahai.md)
+* [茉莉花](chinese/molihua.md)
+* [The moon represents my heart](chinese/yue_xin.md)
+* 
+# Other pricing 
+* [EconML](https://econml.azurewebsites.net/)
+* 
 # Faire
 * [key metric: mistag rates](faire/mistag_rates.md)
 * [getting into max's fake store](faire/fake_store.md)
@@ -5,17 +19,26 @@
 * [project 2023-04-17 brands you may like](faire/projects/20230417_bymk_retraining.md)
 * [project 2023-05-01 Testing a "For You" page](faire/projects/for_you_20230501.md)
 
+# Python and probabilistic data science resources
+* Statistical rethinking
+   * [McElrath's video lectures](https://www.youtube.com/playlist?list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus)
+   * [The statistical rethinking code translated into numpyro](https://fehiepsi.github.io/rethinking-numpyro/)j
+* [Intro level of Bayesian priors and checking -- pursuasive python](https://www.persuasivepython.com/7-numpyrointro)
+* [Python elasticity measures](https://arminkakas.medium.com/the-science-and-art-of-estimating-price-elasticities-f182bb56e6c4)
+
 
 # Data Science
    * [SHAP](shap.md)
    * [NDCG -normalized discounted cumlative gain](ndcg.md), metric for [ranking](ranking) problems.
    * [CUPED](cuped.md)
    * [experimental measurements of percentiles](percentile_exp.md) 
+   * [Matching, Weighting, or Regresssion](https://freedium.cfd/https://towardsdatascience.com/matching-weighting-or-regression-99bf5cffa0d9) (also by Matteo Courthoud)
    * [Deep Factorization machine paper](https://arxiv.org/pdf/1703.04247.pdf)
    * External paper: [Top-K Lists](https://cran.r-project.org/web/packages/TopKLists/vignettes/TopKLists.pdf)
    * [Statistical rethinking in Python (using numpyro)](https://fehiepsi.github.io/rethinking-numpyro/)
       * [An astronomers introduction to Numpyro](https://dfm.io/posts/intro-to-numpyro/)
    * [Cold start problem in Ranking notes](ranking/cold_start_talk_delivery_hero.md) and original [video](https://www.youtube.com/watch?v=-SaJ3DxvozU) 
+
 # Marketing data science
    * [Overview of different approaches to market saturation](marketing/overview.md)
       * Link to external aggegration of approaches [Marketing DS at Airbnb, Lyft, Doordash case studies](https://blogboard.io/x/data-science-in-marketing-optimization/)
@@ -23,6 +46,15 @@
          * [Airbnb](https://medium.com/airbnb-engineering/growing-our-host-community-with-online-marketing-9b2302299324)
          * [Lyft](https://eng.lyft.com/lyft-marketing-automation-b43b7b7537cc)  
          * [LTV estimation pitfalls and how to avoid them](https://www.appsflyer.com/blog/measurement-analytics/overcoming-ltv-modeling-pitfalls/)
+
+# Couponing
+   * Series of articles by Mattero Courthoud
+     * [Beyond churn prediction and churn uplift](https://freedium.cfd/https://towardsdatascience.com/beyond-churn-prediction-and-churn-uplift-45225e5a7541)
+     * [Evaluating uplift models](https://freedium.cfd/https://towardsdatascience.com/evaluating-uplift-models-8a078996a113)
+     * 
+# Pricing (general)
+   * [Discovering prices review](review/discovering-prices.md)
+   * 
 # Platform
    * Amazon Sagemaker xgboost
 
@@ -76,6 +108,9 @@ In a different vein, some resources for high cardinality time-series. Specifical
       * [Mark Denny](https://markdenneyphotography.com/workshops) particularly the Dolomites in Autumn (Oct 23-29,2023)
 
 * [github key process](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+# Backup
+* [rsync](backup/rsync.md)
 
 # Docker notes
 * [Simple Docker -- listing, and attaching to docker](docker/getting_started.md)
